@@ -1,0 +1,143 @@
+body{
+    background-color: #E5E5E5;
+}
+.main{
+    background-color: rgba(37,63,56,0.8);
+    margin: 5%;
+    border-radius: 15px;
+}
+header{
+    padding: 1rem;
+    width: 95%;
+    margin: 0px 12px;
+}
+.logo{
+    color: #807575;
+    font-family: "Zhi Mang Xing",monospace;
+    font-size: 34px;
+    float: left;
+}
+.titles{
+    padding-left: 60%;
+}
+.titles ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 24px;
+}
+.titles ul li a{
+    text-decoration: none;
+    color: white;
+}
+hr.bar{
+    border: 4px solid white;
+    margin: 0.2%;
+    border-radius: 10px;
+}
+.content{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.left{
+    width: 50%;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    height: 400px;
+    z-index: 950;
+}
+.left h1{
+    font-family:"Copperplate Gothic", monospace;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.left p{
+    font-family: "Times New Roman",monospace;
+    font-size: 16px;
+}
+.middles{
+    width: 0; 
+  height: 0; 
+  border-top: 200px solid transparent;
+  border-bottom: 260px solid transparent;
+  
+  border-left: 300px solid #C4C4C4;
+  float: left;
+  border-radius: 6px;
+  margin-left: -3px;
+  z-index: 900;
+}
+.middle{
+    position:absolute;
+    top:370px;
+    left: 56.7%;
+}
+.middle strong{
+    font-family: Magneto;
+    font-size: 47px;
+    color: #5FA396;
+}
+.middle hr{
+    border: 3px solid #2A5A65;
+}
+.right{
+    position:absolute;
+    left: 70%;
+}
+.right img{
+    width: 200px;
+    height: 460px;
+    border: 8px solid #45598B ;
+border-radius: 40%;
+}
+.lside{
+    float: left;
+    margin-right: 10%;
+    width: 30%;
+}
+.lside label strong{
+    font-family: "Red Hat Display";
+    font-size: 30px;
+    color: white;
+    padding-left: 10%;
+}
+#name1, #email1, #message{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Red Hat Display";
+    padding: 4px;
+    margin: 5px;
+}
+#submit1{
+    margin: 5px 30%;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Red Hat Display";
+    padding: 5px 20px;
+    background-color: #082E2E;
+    color: white;
+}
+.rside{
+    float: right;
+    margin-right: 20%;
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: "Red Hat Display";
+    padding: 5px 20px;
+    color: white;
+}
+#info{
+    font-size: 30px;
+}
+.space{
+    margin-left: 10px;
+}
+.fa{
+    position: relative;
+    top: 10px;
+}
